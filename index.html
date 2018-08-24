@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Api</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<h1>Wikipedia Api</h1>
+		<h2 id="greeting" class="greeting">So you want to have fun!</h2>
+		<div class="wikipedia-container">
+			<h3 class="wikipedia-header">Search for towns and Cities in US</h3>
+		</div>
+	
+	<form id="greeting" class="greeting">
+		<label for="title">Search Title</label>
+		<input type="text" name="title" placeholder = "eg., San_Francisco" id="js-title">
+		<button type="submit" class="js-button">Submit</button>
+	</form>
+    </br>
+	<div id="results" class="js-results">
+	</div>	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

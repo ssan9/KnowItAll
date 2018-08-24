@@ -1,0 +1,16 @@
+body{
+	margin: 5% auto;
+	padding: 0;
+	text-align: center;
+}
+
+h3 {
+	margin: 5% auto 2%;
+}
+#js-title{
+	margin: 0 auto;
+}
+
+.js-results{
+	margin: 2% auto;
+}
